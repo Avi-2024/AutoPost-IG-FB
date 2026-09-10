@@ -5,7 +5,7 @@
   "type": "module",
   "description": "Mostly-free Instagram and Facebook auto poster with daily Aaj Se Better carousel generation.",
   "scripts": {
-    "generate": "node scripts/aaj_se_better_generate.mjs",
+    "generate": "node scripts/aaj_se_better_minimal_generate.mjs",
     "publish": "node scripts/social_engine.mjs publish"
   },
   "dependencies": {
