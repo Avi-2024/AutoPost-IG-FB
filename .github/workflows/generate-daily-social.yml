@@ -1,0 +1,57 @@
+name: Generate Daily Social Carousel
+
+on:
+  workflow_dispatch:
+    inputs:
+      post_date:
+        description: "Optional IST date, e.g. 2026-09-11"
+        required: false
+        type: string
+  schedule:
+    # 07:30 AM IST daily
+    - cron: "0 2 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-social-generator
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Generate carousel and queue post
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GROQ_MODEL: ${{ vars.GROQ_MODEL || 'llama-3.3-70b-versatile' }}
+          BRAND_NAME: ${{ vars.BRAND_NAME || 'Build Kar Bro' }}
+          BRAND_HANDLE: ${{ vars.BRAND_HANDLE || 'buildkarbro' }}
+          TARGET_REPO: ${{ github.repository }}
+          TARGET_BRANCH: ${{ github.ref_name }}
+          POST_DATE: ${{ inputs.post_date }}
+        run: npm run generate
+
+      - name: Commit generated carousel
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content assets posts.json package-lock.json
+          if git diff --cached --quiet; then
+            echo "No generated changes to commit."
+          else
+            git commit -m "Generate daily social carousel"
+            git push
+          fi
