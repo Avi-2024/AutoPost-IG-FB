@@ -1,0 +1,14 @@
+{
+  "name": "autopost-ig-fb",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Mostly-free Instagram and Facebook auto poster with daily branded carousel generation.",
+  "scripts": {
+    "generate": "node scripts/social_engine.mjs generate",
+    "publish": "node scripts/social_engine.mjs publish"
+  },
+  "dependencies": {
+    "sharp": "^0.33.5"
+  }
+}
