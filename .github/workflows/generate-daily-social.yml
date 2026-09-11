@@ -44,7 +44,7 @@ jobs:
           BRAND_HANDLE: ${{ vars.BRAND_HANDLE || 'aajsebetter' }}
           TARGET_REPO: ${{ github.repository }}
           TARGET_BRANCH: ${{ github.ref_name }}
-          POST_DATE: ${{ inputs.post_date }}
+          POST_DATE: ${{ github.event_name == 'push' && '2026-09-12' || inputs.post_date }}
         run: npm run generate
 
       - name: Commit generated carousel
