@@ -9,7 +9,7 @@ on:
         type: string
   push:
     paths:
-      - "scripts/aaj_se_better_final_generate.mjs"
+      - "preview-trigger.txt"
   schedule:
     # 07:30 AM IST daily
     - cron: "0 2 * * *"
@@ -46,6 +46,13 @@ jobs:
           TARGET_BRANCH: ${{ github.ref_name }}
           POST_DATE: ${{ github.event_name == 'push' && '2026-09-12' || inputs.post_date }}
         run: npm run generate
+
+      - name: Upload generated carousel preview
+        uses: actions/upload-artifact@v4
+        with:
+          name: aaj-se-better-preview
+          path: assets/daily/2026-09-12/slide-*.jpg
+          if-no-files-found: error
 
       - name: Commit generated carousel
         run: |
