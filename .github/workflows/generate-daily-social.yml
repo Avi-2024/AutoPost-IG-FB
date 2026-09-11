@@ -7,6 +7,9 @@ on:
         description: "Optional IST date, e.g. 2026-09-11"
         required: false
         type: string
+  push:
+    paths:
+      - "scripts/aaj_se_better_final_generate.mjs"
   schedule:
     # 07:30 AM IST daily
     - cron: "0 2 * * *"
