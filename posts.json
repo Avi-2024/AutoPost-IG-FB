@@ -76,5 +76,31 @@
     "facebook_status": null,
     "facebook_post_id": null,
     "facebook_permalink": null
+  },
+  {
+    "id": "daily-2026-09-14",
+    "publish_at": "2026-09-14T09:00:00+05:30",
+    "image_urls": [
+      "https://raw.githubusercontent.com/Avi-2024/AutoPost-IG-FB/main/assets/daily/2026-09-14/slide-1.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/AutoPost-IG-FB/main/assets/daily/2026-09-14/slide-2.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/AutoPost-IG-FB/main/assets/daily/2026-09-14/slide-3.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/AutoPost-IG-FB/main/assets/daily/2026-09-14/slide-4.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/AutoPost-IG-FB/main/assets/daily/2026-09-14/slide-5.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/AutoPost-IG-FB/main/assets/daily/2026-09-14/slide-6.jpg"
+    ],
+    "caption": "Motivation ka wait karoge to progress ruk jayegi.\n\nAaj apna minimum version complete karo—small action, but no zero day.\n\n#aajsebetter #lifelessons #mindset #discipline #selfgrowth #consistency #betterhabits #hinglish",
+    "source": "aaj-se-better-final-editorial",
+    "topic": "Discipline beats motivation",
+    "created_at": "2026-09-12T20:17:30.617Z",
+    "published_at": null,
+    "instagram_media_id": null,
+    "instagram_permalink": null,
+    "instagram_username": null,
+    "verified_at": null,
+    "media_type": null,
+    "media_product_type": null,
+    "facebook_status": null,
+    "facebook_post_id": null,
+    "facebook_permalink": null
   }
 ]

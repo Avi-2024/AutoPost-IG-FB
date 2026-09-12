@@ -401,6 +401,74 @@ function fallback(date) {
 
 
   /* -------------------------------------------------------
+     Curated date override
+     Keep upcoming posts distinct when the fallback pool rotates.
+  ------------------------------------------------------- */
+
+  if (date === '2026-09-14') {
+    return {
+      date,
+      topic: 'Discipline beats motivation',
+      slides: [
+        {
+          eyebrow: 'LIFE LESSONS FOR A BETTER YOU',
+          primary: 'Motivation Ka',
+          accent: 'Wait Mat Karo.',
+          body: 'Motivation har din nahi aati. Discipline low days me bhi tumhe aage badhati hai.',
+          note: 'Start even when you do not feel like it.'
+        },
+        {
+          eyebrow: 'THE PROBLEM',
+          primary: 'Mood Ke Saath',
+          accent: 'Goals Mat Badlo.',
+          body: 'Aaj mood nahi hai, isliye goal postpone karna easy lagta hai.',
+          note: 'Feelings change. Commitments matter.'
+        },
+        {
+          eyebrow: 'THE REALITY',
+          primary: 'Small Habits',
+          accent: 'Big Identity Banati Hain.',
+          body: 'Jo kaam tum repeat karte ho, wahi dheere-dheere tumhari identity ban jaata hai.',
+          note: 'Repetition creates reliability.'
+        },
+        {
+          eyebrow: 'THE LESSON',
+          primary: 'Minimum Version',
+          accent: 'Complete Karo.',
+          body: 'Full workout nahi? 10 minutes. Full chapter nahi? 2 pages. Chain mat todo.',
+          note: 'Make the habit easy to continue.'
+        },
+        {
+          eyebrow: 'ACTION STEPS',
+          primary: 'Daily Non-Negotiable',
+          accent: 'Ek Rakho.',
+          body: 'Aaj ka ek important kaam decide karo aur use distractions se pehle complete karo.',
+          note: 'One promise. Every day.'
+        },
+        {
+          eyebrow: 'FINAL TAKEAWAY',
+          primary: 'Motivation Aaye',
+          accent: 'Ya Na Aaye.',
+          body: 'Aaj bas apna minimum version complete karo. Kal ka confidence wahi banayega.',
+          note: 'Discipline makes progress predictable.'
+        }
+      ],
+      caption: 'Motivation ka wait karoge to progress ruk jayegi.\n\nAaj apna minimum version complete karo—small action, but no zero day.',
+      hashtags: [
+        '#aajsebetter',
+        '#lifelessons',
+        '#mindset',
+        '#discipline',
+        '#selfgrowth',
+        '#consistency',
+        '#betterhabits',
+        '#hinglish'
+      ]
+    };
+  }
+
+
+  /* -------------------------------------------------------
      Rotate topic according to date
   ------------------------------------------------------- */
 
