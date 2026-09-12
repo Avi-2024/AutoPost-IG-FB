@@ -1,51 +1,7 @@
 {
   "date": "2026-09-12",
-  "topic": "Protect your focus",
-  "slides": [
-    {
-      "eyebrow": "LIFE LESSONS FOR A BETTER YOU",
-      "primary": "Focus Ko",
-      "accent": "Protect Karo.",
-      "body": "Jitni distractions kam, utni direction clear. Har cheez ko attention dena zaroori nahi.",
-      "note": "Less noise. More progress."
-    },
-    {
-      "eyebrow": "THE PROBLEM",
-      "primary": "Har Baat Par",
-      "accent": "Yes Mat Bolo.",
-      "body": "Har yes tumhare time aur energy ka ek hissa le jaata hai.",
-      "note": "Protect your energy."
-    },
-    {
-      "eyebrow": "THE REALITY",
-      "primary": "Ek Goal.",
-      "accent": "Ek Season.",
-      "body": "Ek waqt par ek important cheez ko enough time dena growth ko fast karta hai.",
-      "note": "Depth beats scattered effort."
-    },
-    {
-      "eyebrow": "THE LESSON",
-      "primary": "Distraction",
-      "accent": "Costs More.",
-      "body": "Phone ke 5 minute kabhi-kabhi 50 minute ka focus tod dete hain.",
-      "note": "Guard your attention."
-    },
-    {
-      "eyebrow": "ACTION STEPS",
-      "primary": "Priority",
-      "accent": "Clear Rakho.",
-      "body": "Agar sab important hai, to actually kuch bhi important nahi.",
-      "note": "Choose what matters."
-    },
-    {
-      "eyebrow": "FINAL TAKEAWAY",
-      "primary": "Kal Se Nahi.",
-      "accent": "Aaj Se Better.",
-      "body": "Ek distraction remove karo. Ek priority protect karo.",
-      "note": "Fewer distractions. Bigger you."
-    }
-  ],
-  "caption": "Har cheez tumhare liye nahi hoti. Focus bachana bhi growth hai.\n\nAaj ek distraction remove karo aur ek priority protect karo.",
+  "topic": "Start before you feel ready",
+  "caption": "Perfect time ka wait mat karo. Chhota start bhi start hota hai.\\n\\nAaj ek small action lo. Kal ke confidence ka base aaj ka action hota hai.",
   "hashtags": [
     "#aajsebetter",
     "#lifelessons",
@@ -55,5 +11,49 @@
     "#consistency",
     "#personalgrowth",
     "#hinglish"
+  ],
+  "slides": [
+    {
+      "eyebrow": "LIFE LESSONS FOR A BETTER YOU",
+      "primary": "Jaldi Shuru Karo,",
+      "accent": "Perfect Mat Bano.",
+      "body": "Perfect plan ka wait karte karte bahut saare sapne sirf sapne hi reh jaate hain.",
+      "note": "Action > Perfection"
+    },
+    {
+      "eyebrow": "THE PROBLEM",
+      "primary": "Hum Sochte",
+      "accent": "Rehte Hain...",
+      "body": "Thoda aur soch leta hoon. Thoda aur time dekh leta hoon. Abhi sahi time nahi hai.",
+      "note": "Overthinking kills progress."
+    },
+    {
+      "eyebrow": "THE REALITY",
+      "primary": "Perfect Time",
+      "accent": "Kabhi Nahi Aata.",
+      "body": "Life kabhi 100% ready nahi hoti. Jo wait karte rehte hain, wo aksar shuru hi nahi kar pate.",
+      "note": "Progress needs a starting point."
+    },
+    {
+      "eyebrow": "THE LESSON",
+      "primary": "Action Se Hi",
+      "accent": "Clarity Aati Hai.",
+      "body": "Sochne se cheeze clear nahi hoti, karne se hoti hain. Shuru karoge to raste khud bante jaayenge.",
+      "note": "Start. Learn. Improve."
+    },
+    {
+      "eyebrow": "ACTION STEPS",
+      "primary": "Aaj Hi Ek",
+      "accent": "Chhota Step Lo.",
+      "body": "Ek chhota goal likho. Sirf 10 minute se shuru karo. Progress ko track karo.",
+      "note": "Small steps create big results."
+    },
+    {
+      "eyebrow": "FINAL TAKEAWAY",
+      "primary": "Kal Nahi. Perfect Nahi.",
+      "accent": "Aaj Se Better.",
+      "body": "Shuru karo. Consistency rakho. Apna best dete raho. Wahi kaafi hai.",
+      "note": "A better you is a brighter tomorrow."
+    }
   ]
 }
