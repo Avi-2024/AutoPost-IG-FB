@@ -19,7 +19,7 @@ This repo does not require a paid image generation API. It uses:
 - Built-in fallback content when `GROQ_API_KEY` is not available.
 - `sharp` + SVG templates to create 1080x1080 JPG carousel slides.
 
-Because this is a free-first generator, it produces premium branded template-style visuals, not true AI-rendered 3D images. A paid/credit-based image API can be added later.
+The generator uses six screenshot-style 3D reference visuals stored in `assets/reference-carousel/` and overlays fresh daily content on them. No image-generation API key is required for this workflow. A paid/credit-based image API can be added later if you want new artwork every day.
 
 ## Required GitHub Secrets
 
@@ -48,8 +48,8 @@ GROQ_API_KEY
 ## Optional GitHub Variables
 
 ```txt
-BRAND_NAME=Build Kar Bro
-BRAND_HANDLE=buildkarbro
+BRAND_NAME=Aaj Se Better
+BRAND_HANDLE=aajsebetter
 GROQ_MODEL=llama-3.3-70b-versatile
 ```
 
@@ -68,3 +68,7 @@ Go to GitHub Actions:
 - The workflow uses raw GitHub URLs for generated carousel images.
 - Facebook Page publishing requires `pages_manage_posts`, `pages_read_engagement`, and `pages_show_list` through a valid Page/System User token.
 - The publisher saves Instagram and Facebook permalinks back into `posts.json`.
+
+## Aaj Se Better visual template
+
+The daily generator keeps the same 3D creator visual language, orange/blue glow accents, 6-slide carousel structure, and dynamic Groq-generated text. Add `GROQ_API_KEY` for fresh content; without it, the built-in fallback pool is used.
