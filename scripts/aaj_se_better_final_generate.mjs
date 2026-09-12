@@ -18,19 +18,25 @@ const REPO =
 const BRANCH =
   process.env.TARGET_BRANCH || 'main';
 
+const VISUALS_DIR = path.join(
+  ROOT,
+  'assets',
+  'reference-carousel'
+);
+
 
 /* =========================================================
    DESIGN COLORS
 ========================================================= */
 
 const C = {
-  ink: '#211b18',
-  orange: '#ed6a32',
-  body: '#4b433e',
-  muted: '#756b64',
+  ink: '#0b1422',
+  orange: '#ff5a08',
+  body: '#1e2b40',
+  muted: '#6b7280',
   cream: '#fffaf5',
-  peach: '#f9e3d2',
-  line: '#d8c9bd'
+  peach: '#ffe9d1',
+  line: '#d7dce4'
 };
 
 
@@ -772,16 +778,26 @@ function defs() {
 
     </radialGradient>
 
+    <linearGradient id="textWash" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".94"/>
+      <stop offset=".72" stop-color="#ffffff" stop-opacity=".58"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <clipPath id="visualClip">
+      <rect x="0" y="0" width="1080" height="1080" rx="68"/>
+    </clipPath>
+
 
     <!-- TYPOGRAPHY -->
 
     <style>
 
       .brand {
-            font-family:
-              'DejaVu Serif',
-              Georgia,
-              serif;
+        font-family:
+          'DejaVu Sans',
+          Arial,
+          sans-serif;
 
         font-weight: 700;
 
@@ -791,9 +807,9 @@ function defs() {
 
       .brandOrange {
         font-family:
-          'DejaVu Serif',
-          Georgia,
-          serif;
+          'DejaVu Sans',
+          Arial,
+          sans-serif;
 
         font-weight: 700;
 
@@ -817,29 +833,29 @@ function defs() {
 
       .title {
         font-family:
-          'DejaVu Serif',
-          Georgia,
-          serif;
+          'DejaVu Sans',
+          Arial,
+          sans-serif;
 
-        font-weight: 700;
+        font-weight: 900;
 
         fill: ${C.ink};
 
-          letter-spacing: -1.5px;
+          letter-spacing: -2px;
       }
 
 
       .accent {
         font-family:
-          'DejaVu Serif',
-          Georgia,
-          serif;
+          'DejaVu Sans',
+          Arial,
+          sans-serif;
 
-        font-weight: 700;
+        font-weight: 900;
 
         fill: ${C.orange};
 
-          letter-spacing: -1.5px;
+          letter-spacing: -2px;
       }
 
 
@@ -856,11 +872,11 @@ function defs() {
 
 
       .note {
-            font-family:
-              'Comic Sans MS',
-              'URW Chancery L',
-              'DejaVu Serif',
-              cursive;
+        font-family:
+          'Comic Sans MS',
+          'URW Chancery L',
+          'DejaVu Sans',
+          cursive;
 
           font-style: italic;
 
@@ -901,34 +917,80 @@ function header(index) {
   return `
   <g>
 
+    <circle
+      cx="82"
+      cy="78"
+      r="27"
+      fill="${C.orange}"
+    />
+
+    <path
+      d="M70 83 L80 72 L87 79 L98 66"
+      fill="none"
+      stroke="#ffffff"
+      stroke-width="5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+
     <text
-      x="68"
+      x="124"
       y="76"
       class="brand"
-      font-size="36"
+      font-size="28"
     >
-      Aaj Se <tspan class="brandOrange">Better</tspan>
+      AAJ SE <tspan class="brandOrange">BETTER</tspan>
     </text>
 
 
     <text
-      x="68"
-      y="108"
+      x="125"
+      y="100"
       class="meta"
-      font-size="10"
+      font-size="9"
     >
-      SMALL STEPS. BIGGER LIFE.
+      LIFE  •  MINDSET  •  ACTION  •  GROWTH
     </text>
 
 
+    <rect
+      x="904"
+      y="46"
+      width="112"
+      height="61"
+      rx="30"
+      fill="#ffffff"
+      fill-opacity=".88"
+      stroke="#e5e7eb"
+      stroke-width="2"
+    />
+
+    <circle
+      cx="936"
+      cy="76"
+      r="22"
+      fill="${C.orange}"
+    />
+
     <text
-      x="1012"
-      y="78"
-      text-anchor="end"
-      class="brand"
-      font-size="27"
+      x="936"
+      y="84"
+      text-anchor="middle"
+      font-family="DejaVu Sans,Arial,sans-serif"
+      font-weight="900"
+      font-size="22"
+      fill="#ffffff"
     >
-      ${index + 1}/6
+      ${index + 1}
+    </text>
+
+    <text
+      x="974"
+      y="84"
+      class="brand"
+      font-size="22"
+    >
+      /6
     </text>
 
   </g>
@@ -963,19 +1025,29 @@ function footer(index) {
   return `
   <g>
 
+    <rect
+      x="54"
+      y="874"
+      width="972"
+      height="150"
+      rx="32"
+      fill="#ffffff"
+      fill-opacity=".58"
+    />
+
     <line
-      x1="68"
-      y1="946"
+      x1="72"
+      y1="932"
       x2="738"
-      y2="946"
+      y2="932"
       stroke="${C.line}"
       stroke-width="1.5"
     />
 
 
     <text
-      x="68"
-      y="991"
+      x="72"
+      y="978"
       class="meta"
       font-size="10"
     >
@@ -985,7 +1057,7 @@ function footer(index) {
 
       <rect
         x="792"
-        y="963"
+        y="948"
         width="220"
         height="58"
         rx="29"
@@ -997,7 +1069,7 @@ function footer(index) {
 
       <text
         x="902"
-        y="1000"
+        y="985"
         text-anchor="middle"
         font-family="DejaVu Sans,Arial,sans-serif"
         font-weight="700"
@@ -1018,7 +1090,8 @@ function footer(index) {
 
 function slideSvg(
   content,
-  index
+  index,
+  visuals = []
 ) {
 
   const s =
@@ -1032,7 +1105,7 @@ function slideSvg(
   const primaryLines =
     wrap(
       s.primary,
-      24,
+      19,
       2
     );
 
@@ -1040,19 +1113,19 @@ function slideSvg(
   const accentLines =
     wrap(
       s.accent,
-      24,
+      19,
       2
     );
 
 
   const titleSize =
     index === 0
-      ? 72
-      : 70;
+      ? 70
+      : 64;
 
 
   let y =
-    232;
+    228;
 
 
   const p =
@@ -1062,7 +1135,7 @@ function slideSvg(
           `
           <text
             x="72"
-            y="${y + i * 78}"
+            y="${y + i * 72}"
             class="title"
             font-size="${titleSize}"
           >
@@ -1075,7 +1148,7 @@ function slideSvg(
 
   y +=
     primaryLines.length *
-    78;
+    72;
 
 
   const a =
@@ -1085,7 +1158,7 @@ function slideSvg(
           `
           <text
             x="72"
-            y="${y + i * 78}"
+            y="${y + i * 72}"
             class="accent"
             font-size="${titleSize}"
           >
@@ -1098,7 +1171,7 @@ function slideSvg(
 
   y +=
     accentLines.length *
-    78;
+    72;
 
 
   /* -------------------------
@@ -1107,15 +1180,15 @@ function slideSvg(
 
   const bodyY =
     Math.max(
-      y + 42,
-      470
+      y + 35,
+      468
     );
 
 
   const bodyLines =
     wrap(
       s.body,
-      50,
+      37,
       3
     );
 
@@ -1126,13 +1199,13 @@ function slideSvg(
         (line, i) =>
           `
           <text
-            x="72"
+            x="70"
             y="${
               bodyY +
-                  i * 43
+                  i * 40
             }"
             class="body"
-            font-size="29"
+            font-size="28"
           >
             ${esc(line)}
           </text>
@@ -1149,9 +1222,9 @@ function slideSvg(
     Math.min(
       bodyY +
         bodyLines.length *
-          43 +
-        82,
-      824
+          40 +
+        75,
+      816
     );
 
 
@@ -1169,13 +1242,13 @@ function slideSvg(
         (line, i) =>
           `
           <text
-            x="72"
+            x="70"
             y="${
               noteY +
-                  i * 36
+                  i * 32
             }"
             class="note"
-            font-size="28"
+            font-size="25"
           >
             ${esc(line)}
           </text>
@@ -1186,9 +1259,22 @@ function slideSvg(
 
   const underlineY =
     Math.min(
-      y + 12,
-      452
+      y + 10,
+      454
     );
+
+  const visualMarkup = visuals[index]
+    ? `<image
+         x="0"
+         y="0"
+         width="1080"
+         height="1080"
+         preserveAspectRatio="none"
+         clip-path="url(#visualClip)"
+         href="${visuals[index]}"
+         xlink:href="${visuals[index]}"
+       />`
+    : '';
 
 
   /* =======================================================
@@ -1199,6 +1285,7 @@ function slideSvg(
 
   <svg
     xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
     width="1080"
     height="1080"
     viewBox="0 0 1080 1080"
@@ -1215,23 +1302,15 @@ function slideSvg(
       fill="url(#bg)"
     />
 
+    ${visualMarkup}
 
-    <!-- SUBTLE PEACH ACCENTS -->
-
-    <circle
-      cx="1100"
-      cy="225"
-      r="285"
-      fill="url(#peach)"
-    />
-
-
-    <circle
-      cx="1070"
-      cy="955"
-      r="315"
-      fill="url(#peach)"
-      opacity=".65"
+    <rect
+      x="0"
+      y="0"
+      width="660"
+      height="880"
+      fill="url(#textWash)"
+      opacity=".76"
     />
 
 
@@ -1243,10 +1322,10 @@ function slideSvg(
     <!-- SECTION LABEL -->
 
     <text
-      x="72"
-      y="164"
+      x="70"
+      y="158"
       class="eyebrow"
-      font-size="14"
+      font-size="13"
     >
       ${esc(s.eyebrow)}
     </text>
@@ -1264,7 +1343,7 @@ function slideSvg(
     <line
       x1="70"
       y1="${underlineY}"
-      x2="155"
+      x2="165"
       y2="${underlineY}"
       stroke="${C.orange}"
       stroke-width="7"
@@ -1308,6 +1387,31 @@ function slideSvg(
    RENDER JPG CAROUSEL
 ========================================================= */
 
+async function loadVisuals() {
+
+  const visuals = [];
+
+  for (let i = 1; i <= 6; i += 1) {
+
+    try {
+      const image = await fs.readFile(
+        path.join(VISUALS_DIR, `slide-${i}.jpg`)
+      );
+
+      visuals.push(
+        `data:image/jpeg;base64,${image.toString('base64')}`
+      );
+
+    } catch (error) {
+      if (error.code !== 'ENOENT') throw error;
+      visuals.push('');
+    }
+  }
+
+  return visuals;
+}
+
+
 async function render(content) {
 
   const dir =
@@ -1326,6 +1430,8 @@ async function render(content) {
     }
   );
 
+  const visuals = await loadVisuals();
+
 
   for (
     let i = 0;
@@ -1342,10 +1448,11 @@ async function render(content) {
 
     await sharp(
       Buffer.from(
-        slideSvg(
-          content,
-          i
-        )
+            slideSvg(
+              content,
+              i,
+              visuals
+            )
       )
     )
       .jpeg({
