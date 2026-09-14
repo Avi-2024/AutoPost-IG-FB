@@ -720,6 +720,69 @@ function fallback(date) {
   }
 
 
+  if (date === '2026-09-20') {
+    return {
+      date,
+      topic: 'Choose progress over comparison',
+      slides: [
+        {
+          eyebrow: 'LIFE LESSONS FOR A BETTER YOU',
+          primary: 'Apni Journey',
+          accent: 'Compare Mat Karo.',
+          body: 'Dusron ki speed dekhkar apni progress ko small mat samjho.',
+          note: 'Your path is still valid.'
+        },
+        {
+          eyebrow: 'THE PROBLEM',
+          primary: 'Online Life',
+          accent: 'Full Story Nahi.',
+          body: 'Tum logon ke highlights ko apne behind-the-scenes se compare kar rahe ho.',
+          note: 'You see moments, not context.'
+        },
+        {
+          eyebrow: 'THE REALITY',
+          primary: 'Har Kisi Ka',
+          accent: 'Starting Point Alag Hai.',
+          body: 'Resources, timing aur responsibilities sabki different hoti hain.',
+          note: 'Different inputs, different timelines.'
+        },
+        {
+          eyebrow: 'THE LESSON',
+          primary: 'Race Apni',
+          accent: 'Rakho.',
+          body: 'Aaj ka target kal wale version se better hona hai, kisi aur se nahi.',
+          note: 'Progress over comparison.'
+        },
+        {
+          eyebrow: 'ACTION STEPS',
+          primary: 'Apni Wins',
+          accent: 'Track Karo.',
+          body: 'Har week teen small improvements likho aur unhe honestly celebrate karo.',
+          note: 'Notice your own progress.'
+        },
+        {
+          eyebrow: 'FINAL TAKEAWAY',
+          primary: 'Unki Story',
+          accent: 'Tumhari Nahi Hai.',
+          body: 'Apna pace respect karo. Tum late nahi ho—tum apne route par ho.',
+          note: 'Keep moving your way.'
+        }
+      ],
+      caption: 'Comparison tumhari progress ko invisible bana deta hai.\\n\\nAaj apni journey dekho—tum kal se better ho ya nahi, bas itna matter karta hai.',
+      hashtags: [
+        '#aajsebetter',
+        '#lifelessons',
+        '#mindset',
+        '#selfgrowth',
+        '#comparison',
+        '#personalgrowth',
+        '#betterhabits',
+        '#hinglish'
+      ]
+    };
+  }
+
+
   /* -------------------------------------------------------
      Rotate topic according to date
   ------------------------------------------------------- */
