@@ -206,5 +206,31 @@
     "facebook_status": null,
     "facebook_post_id": null,
     "facebook_permalink": null
+  },
+  {
+    "id": "daily-2026-09-19",
+    "publish_at": "2026-09-19T09:00:00+05:30",
+    "image_urls": [
+      "https://raw.githubusercontent.com/Avi-2024/AutoPost-IG-FB/main/assets/daily/2026-09-19/slide-1.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/AutoPost-IG-FB/main/assets/daily/2026-09-19/slide-2.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/AutoPost-IG-FB/main/assets/daily/2026-09-19/slide-3.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/AutoPost-IG-FB/main/assets/daily/2026-09-19/slide-4.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/AutoPost-IG-FB/main/assets/daily/2026-09-19/slide-5.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/AutoPost-IG-FB/main/assets/daily/2026-09-19/slide-6.jpg"
+    ],
+    "caption": "Aaj ka chapter difficult ho sakta hai, lekin wahi tumhari poori story nahi hai.\n\nApne next right step par focus karo.\n\n#aajsebetter #lifelessons #mindset #selfgrowth #hope #discipline #betterhabits #hinglish",
+    "source": "aaj-se-better-final-editorial",
+    "topic": "Your story is still unfolding",
+    "created_at": "2026-09-14T11:00:09.679Z",
+    "published_at": null,
+    "instagram_media_id": null,
+    "instagram_permalink": null,
+    "instagram_username": null,
+    "verified_at": null,
+    "media_type": null,
+    "media_product_type": null,
+    "facebook_status": null,
+    "facebook_post_id": null,
+    "facebook_permalink": null
   }
 ]

@@ -657,6 +657,69 @@ function fallback(date) {
   }
 
 
+  if (date === '2026-09-19') {
+    return {
+      date,
+      topic: 'Your story is still unfolding',
+      slides: [
+        {
+          eyebrow: 'LIFE LESSONS FOR A BETTER YOU',
+          primary: 'Abhi Story',
+          accent: 'Baaki Hai.',
+          body: 'Aaj ka difficult chapter tumhari poori identity nahi hota.',
+          note: 'Keep going.'
+        },
+        {
+          eyebrow: 'THE PROBLEM',
+          primary: 'Ek Bad Day Ko',
+          accent: 'Final Mat Samjho.',
+          body: 'Ek setback ko permanent label bana dena khud ke saath unfair hai.',
+          note: 'A day is not a life.'
+        },
+        {
+          eyebrow: 'THE REALITY',
+          primary: 'Direction Change',
+          accent: 'Failure Nahi.',
+          body: 'Kabhi route badalna bhi growth ka important part hota hai.',
+          note: "Adjust, don't abandon."
+        },
+        {
+          eyebrow: 'THE LESSON',
+          primary: 'Progress Ka Shape',
+          accent: 'Straight Nahi Hota.',
+          body: 'Kabhi fast, kabhi slow—important hai ki tum seekhte raho.',
+          note: 'Growth has seasons.'
+        },
+        {
+          eyebrow: 'ACTION STEPS',
+          primary: 'Next Right Step',
+          accent: 'Choose Karo.',
+          body: 'Past ko repeat analyse karne ke bajay aaj ka ek useful step lo.',
+          note: 'Focus on what you control.'
+        },
+        {
+          eyebrow: 'FINAL TAKEAWAY',
+          primary: 'Chapter Tough Hai.',
+          accent: 'End Nahi.',
+          body: 'Thoda time do. Apni story ko beech me judge mat karo.',
+          note: 'Your story is still unfolding.'
+        }
+      ],
+      caption: 'Aaj ka chapter difficult ho sakta hai, lekin wahi tumhari poori story nahi hai.\n\nApne next right step par focus karo.',
+      hashtags: [
+        '#aajsebetter',
+        '#lifelessons',
+        '#mindset',
+        '#selfgrowth',
+        '#hope',
+        '#discipline',
+        '#betterhabits',
+        '#hinglish'
+      ]
+    };
+  }
+
+
   /* -------------------------------------------------------
      Rotate topic according to date
   ------------------------------------------------------- */
