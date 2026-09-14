@@ -285,7 +285,7 @@ function fallback(date) {
           'LIFE LESSONS FOR A BETTER YOU',
           'Focus Ko',
           'Protect Karo.',
-          'Jitni distractions kam, utni direction clear. Har cheez ko attention dena zaroori nahi.',
+          'Distractions kam honge, to direction clear rahegi. Har cheez ko attention dena zaroori nahi.',
           'Less noise. More progress.'
         ],
 
