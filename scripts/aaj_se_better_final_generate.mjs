@@ -531,6 +531,69 @@ function fallback(date) {
   }
 
 
+  if (date === '2026-09-17') {
+    return {
+      date,
+      topic: 'Consistency creates change',
+      slides: [
+        {
+          eyebrow: 'LIFE LESSONS FOR A BETTER YOU',
+          primary: 'Boring Habits',
+          accent: 'Big Results.',
+          body: 'Daily effort exciting nahi hota, par wahi long-term change banata hai.',
+          note: 'Consistency is quiet power.'
+        },
+        {
+          eyebrow: 'THE PROBLEM',
+          primary: 'Result Jaldi',
+          accent: 'Chahiye Hota Hai.',
+          body: 'Kuch din effort karke proof na mile, to hum aksar quit kar dete hain.',
+          note: 'Invisible progress still counts.'
+        },
+        {
+          eyebrow: 'THE REALITY',
+          primary: 'Compound Effect',
+          accent: 'Slow Dikhta Hai.',
+          body: 'Daily small improvement ek din me nahi, months me clearly visible hoti hai.',
+          note: 'Small actions add up.'
+        },
+        {
+          eyebrow: 'THE LESSON',
+          primary: 'System Banao',
+          accent: 'Mood Nahi.',
+          body: 'Same time, same cue, same minimum action—habit easy ban jaati hai.',
+          note: 'Make progress automatic.'
+        },
+        {
+          eyebrow: 'ACTION STEPS',
+          primary: '30 Din Tak',
+          accent: 'Repeat Karo.',
+          body: 'Ek goal choose karo. Daily minimum define karo. Miss ho to next day restart.',
+          note: 'Never miss twice.'
+        },
+        {
+          eyebrow: 'FINAL TAKEAWAY',
+          primary: 'Boring Raho.',
+          accent: 'Better Bano.',
+          body: 'Jo habit tum repeat kar sakte ho, wahi tumhari life change kar sakti hai.',
+          note: 'Small steps. Bigger life.'
+        }
+      ],
+      caption: 'Consistency boring lag sakti hai, lekin change wahi create karti hai.\n\nEk small habit choose karo aur use 30 din tak repeat karo.',
+      hashtags: [
+        '#aajsebetter',
+        '#lifelessons',
+        '#mindset',
+        '#selfgrowth',
+        '#discipline',
+        '#consistency',
+        '#betterhabits',
+        '#hinglish'
+      ]
+    };
+  }
+
+
   /* -------------------------------------------------------
      Rotate topic according to date
   ------------------------------------------------------- */
