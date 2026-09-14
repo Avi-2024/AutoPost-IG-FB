@@ -128,5 +128,31 @@
     "facebook_status": null,
     "facebook_post_id": null,
     "facebook_permalink": null
+  },
+  {
+    "id": "daily-2026-09-16",
+    "publish_at": "2026-09-16T09:00:00+05:30",
+    "image_urls": [
+      "https://raw.githubusercontent.com/Avi-2024/AutoPost-IG-FB/main/assets/daily/2026-09-16/slide-1.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/AutoPost-IG-FB/main/assets/daily/2026-09-16/slide-2.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/AutoPost-IG-FB/main/assets/daily/2026-09-16/slide-3.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/AutoPost-IG-FB/main/assets/daily/2026-09-16/slide-4.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/AutoPost-IG-FB/main/assets/daily/2026-09-16/slide-5.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/AutoPost-IG-FB/main/assets/daily/2026-09-16/slide-6.jpg"
+    ],
+    "caption": "Har decision ko explain karna zaroori nahi.\n\nAaj ek healthy boundary set karo aur apni peace ko priority do.\n\n#aajsebetter #lifelessons #mindset #selfgrowth #boundaries #innerpeace #betterhabits #hinglish",
+    "source": "aaj-se-better-final-editorial",
+    "topic": "Protect your peace",
+    "created_at": "2026-09-14T05:44:38.004Z",
+    "published_at": null,
+    "instagram_media_id": null,
+    "instagram_permalink": null,
+    "instagram_username": null,
+    "verified_at": null,
+    "media_type": null,
+    "media_product_type": null,
+    "facebook_status": null,
+    "facebook_post_id": null,
+    "facebook_permalink": null
   }
 ]
