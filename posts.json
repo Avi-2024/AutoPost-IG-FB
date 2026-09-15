@@ -284,5 +284,31 @@
     "facebook_status": null,
     "facebook_post_id": null,
     "facebook_permalink": null
+  },
+  {
+    "id": "daily-2026-09-22",
+    "publish_at": "2026-09-22T09:00:00+05:30",
+    "image_urls": [
+      "https://raw.githubusercontent.com/Avi-2024/AutoPost-IG-FB/main/assets/daily/2026-09-22/slide-1.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/AutoPost-IG-FB/main/assets/daily/2026-09-22/slide-2.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/AutoPost-IG-FB/main/assets/daily/2026-09-22/slide-3.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/AutoPost-IG-FB/main/assets/daily/2026-09-22/slide-4.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/AutoPost-IG-FB/main/assets/daily/2026-09-22/slide-5.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/AutoPost-IG-FB/main/assets/daily/2026-09-22/slide-6.jpg"
+    ],
+    "caption": "Life ka poora map pehle nahi milta. Kabhi-kabhi pehla step lene ke baad hi next direction samajh aati hai.\n\nAaj sab solve karne ki zaroorat nahi—bas ek useful next step lo.\n\n#aajsebetter #lifelessons #mindset #selfgrowth #clarity #confidence #betterhabits #hinglish",
+    "source": "aaj-se-better-final-editorial",
+    "topic": "You do not need to have it all figured out",
+    "created_at": "2026-09-15T08:58:49.324Z",
+    "published_at": null,
+    "instagram_media_id": null,
+    "instagram_permalink": null,
+    "instagram_username": null,
+    "verified_at": null,
+    "media_type": null,
+    "media_product_type": null,
+    "facebook_status": null,
+    "facebook_post_id": null,
+    "facebook_permalink": null
   }
 ]

@@ -847,6 +847,69 @@ function fallback(date) {
   }
 
 
+  if (date === '2026-09-22') {
+    return {
+      date,
+      topic: 'You do not need to have it all figured out',
+      slides: [
+        {
+          eyebrow: 'LIFE LESSONS FOR A BETTER YOU',
+          primary: 'Sab Clear Hona',
+          accent: 'Zaroori Nahi.',
+          body: 'Direction aksar move karne ke baad clear hoti hai, pehle nahi.',
+          note: 'Clarity comes through action.'
+        },
+        {
+          eyebrow: 'THE PROBLEM',
+          primary: 'Perfect Plan Ka',
+          accent: 'Wait Karte Ho.',
+          body: 'Har possibility predict karne ki koshish start ko unnecessarily delay kar deti hai.',
+          note: 'Planning should support action.'
+        },
+        {
+          eyebrow: 'THE REALITY',
+          primary: 'First Step',
+          accent: 'Next Step Dikhata Hai.',
+          body: 'Tumhe poori staircase nahi dekhni. Bas agla safe aur useful step enough hai.',
+          note: 'One step at a time.'
+        },
+        {
+          eyebrow: 'THE LESSON',
+          primary: 'Confusion Ke Saath',
+          accent: 'Bhi Move Karo.',
+          body: 'Uncertainty ka matlab stop nahi hota. Learn karte hue direction adjust ki ja sakti hai.',
+          note: 'Adjust, do not freeze.'
+        },
+        {
+          eyebrow: 'ACTION STEPS',
+          primary: 'Next 24 Hours',
+          accent: 'Plan Karo.',
+          body: 'Ek priority likho, uska first action decide karo aur aaj hi usse start karo.',
+          note: 'Make the next step visible.'
+        },
+        {
+          eyebrow: 'FINAL TAKEAWAY',
+          primary: 'Sab Answers Nahi.',
+          accent: 'Bas Next Step.',
+          body: 'Tum lost nahi ho. Tum process me ho—aur process action se hi clear hota hai.',
+          note: 'Keep moving your way.'
+        }
+      ],
+      caption: 'Life ka poora map pehle nahi milta. Kabhi-kabhi pehla step lene ke baad hi next direction samajh aati hai.\n\nAaj sab solve karne ki zaroorat nahi—bas ek useful next step lo.',
+      hashtags: [
+        '#aajsebetter',
+        '#lifelessons',
+        '#mindset',
+        '#selfgrowth',
+        '#clarity',
+        '#confidence',
+        '#betterhabits',
+        '#hinglish'
+      ]
+    };
+  }
+
+
   /* -------------------------------------------------------
      Rotate topic according to date
   ------------------------------------------------------- */
