@@ -466,5 +466,31 @@
     "facebook_status": null,
     "facebook_post_id": null,
     "facebook_permalink": null
+  },
+  {
+    "id": "daily-2026-09-29",
+    "publish_at": "2026-09-29T09:00:00+05:30",
+    "image_urls": [
+      "https://raw.githubusercontent.com/Avi-2024/AutoPost-IG-FB/main/assets/daily/2026-09-29/slide-1.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/AutoPost-IG-FB/main/assets/daily/2026-09-29/slide-2.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/AutoPost-IG-FB/main/assets/daily/2026-09-29/slide-3.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/AutoPost-IG-FB/main/assets/daily/2026-09-29/slide-4.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/AutoPost-IG-FB/main/assets/daily/2026-09-29/slide-5.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/AutoPost-IG-FB/main/assets/daily/2026-09-29/slide-6.jpg"
+    ],
+    "caption": "Perfect time ka wait mat karo. Chhota start bhi start hota hai.\n\nAaj ek small action lo. Kal ke confidence ka base aaj ka action hota hai.\n\n#aajsebetter #lifelessons #mindset #selfgrowth #discipline #consistency #personalgrowth #hinglish",
+    "source": "aaj-se-better-final-editorial",
+    "topic": "Start before you feel ready",
+    "created_at": "2026-09-29T08:14:06.321Z",
+    "published_at": null,
+    "instagram_media_id": null,
+    "instagram_permalink": null,
+    "instagram_username": null,
+    "verified_at": null,
+    "media_type": null,
+    "media_product_type": null,
+    "facebook_status": null,
+    "facebook_post_id": null,
+    "facebook_permalink": null
   }
 ]
