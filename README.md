@@ -1,74 +1,49 @@
-# AutoPost IG + FB
+# Aaj Se Better — Instagram + Facebook
 
-Mostly-free daily Instagram + Facebook automation for a faceless creator brand.
+Small steps. Bigger life.
 
-This repo creates a branded 6-slide carousel automatically, queues it in `posts.json`, then publishes it to Instagram and Facebook Page.
+Original six-slide Hinglish carousels about life lessons, mindset and self-growth. The current original AI batch covers October 5–11, 2026, scheduled daily at 09:00 IST.
 
-## Daily flow
+## Design and original images
 
-```txt
-07:30 AM IST  Generate carousel JPGs + queue post
-09:00 AM IST  Publish queued post to Instagram + Facebook
+For this batch the user explicitly chose Aaj Se Better branding with the uploaded orange-hoodie character/blue-accent reference style. The full copy and generation prompts are in `content/approved-oct-05-11.json`. The 42 individual AI images are in `assets/approved/YYYY-MM-DD/slide-N.jpg`; provenance, dimensions and SHA-256 hashes are in `content/approved-oct-05-11-assets.json`.
+
+Every image was generated with the built-in image tool, reviewed, then converted to a complete JPEG. No placeholder or old reference image is substituted. See `PROJECT_CONTEXT.md` for the approved style override and account rules.
+
+## Daily workflow
+
+- 07:30 IST: verify that today's original images and reviewed queue entry are ready. This check preserves committed assets.
+- 09:00 IST: publish the due approved carousel to Instagram and Facebook, with morning retry triggers.
+- Verify both accounts before creating any media; verify both published results before marking the post complete.
+- Persist media containers and publish attempts. Recover ambiguous responses by reading the account/Page feed; block duplicate attempts when the result remains uncertain.
+
+GitHub scheduled runs can start late. The cron target is 09:00 IST, not a guarantee of exact platform delivery time. When this batch ends, prepare another original batch; the readiness check fails rather than creating fallback images.
+
+## Required repository secrets
+
+Set these only for Aaj Se Better in this repository:
+
+- `META_ACCESS_TOKEN`: its Instagram access token.
+- `IG_USER_ID`: its Instagram account ID.
+- `FACEBOOK_PAGE_ACCESS_TOKEN`: its Facebook Page token.
+- `FACEBOOK_PAGE_ID`: its Facebook Page ID.
+
+Repository variables:
+
+- `BRAND_HANDLE`: actual Instagram username, default `aajsebetter`.
+- `FACEBOOK_PAGE_NAME`: actual Facebook Page name, default `Aaj Se Better`.
+
+The publisher rejects Build Kar Bro's known account IDs, any Instagram username mismatch and any Facebook Page identity mismatch. Legacy unapproved queued entries are excluded from the active publisher.
+
+On October 4 the previous publishing workflow failed because `META_ACCESS_TOKEN` was missing. Adding images does not resolve missing credentials. Once the correct secrets and account variables are configured, the scheduled publisher can use this batch.
+
+## Checks
+
+```sh
+npm test
+npm run verify:batch
+POST_DATE=2026-10-05 npm run generate
+npm run publish
 ```
 
-## Free-first design
-
-This repo does not require a paid image generation API. It uses:
-
-- Groq API for better topic/caption generation when `GROQ_API_KEY` is available.
-- Built-in fallback content when `GROQ_API_KEY` is not available.
-- `sharp` + SVG templates to create 1080x1080 JPG carousel slides.
-
-The generator uses six screenshot-style 3D reference visuals stored in `assets/reference-carousel/` and overlays fresh daily content on them. No image-generation API key is required for this workflow. A paid/credit-based image API can be added later if you want new artwork every day.
-
-## Required GitHub Secrets
-
-For publishing:
-
-```txt
-META_ACCESS_TOKEN
-FACEBOOK_PAGE_ACCESS_TOKEN
-FACEBOOK_PAGE_ID
-```
-
-Recommended optional secret:
-
-```txt
-IG_USER_ID
-```
-
-For content generation:
-
-```txt
-GROQ_API_KEY
-```
-
-`GROQ_API_KEY` is optional. Without it, the repo still generates posts from the built-in content pool.
-
-## Optional GitHub Variables
-
-```txt
-BRAND_NAME=Aaj Se Better
-BRAND_HANDLE=aajsebetter
-GROQ_MODEL=llama-3.3-70b-versatile
-```
-
-## Manual test
-
-Go to GitHub Actions:
-
-1. Run `Generate Daily Social Carousel` manually.
-2. Confirm `assets/daily/YYYY-MM-DD/slide-1.jpg` to `slide-6.jpg` are created.
-3. Confirm `posts.json` has a new queued entry.
-4. Run `Publish Social Queue` manually.
-
-## Important notes
-
-- Instagram requires publicly reachable JPG/JPEG image URLs.
-- The workflow uses raw GitHub URLs for generated carousel images.
-- Facebook Page publishing requires `pages_manage_posts`, `pages_read_engagement`, and `pages_show_list` through a valid Page/System User token.
-- The publisher saves Instagram and Facebook permalinks back into `posts.json`.
-
-## Aaj Se Better visual template
-
-The daily generator keeps the same 3D creator visual language, orange/blue glow accents, 6-slide carousel structure, and dynamic Groq-generated text. Add `GROQ_API_KEY` for fresh content; without it, the built-in fallback pool is used.
+No image-generation API key is needed for the committed batch. GitHub Actions checks ready originals; it cannot call ChatGPT's built-in image generator.

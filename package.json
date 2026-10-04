@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "Mostly-free Instagram and Facebook auto poster with daily Aaj Se Better carousel generation.",
+  "description": "Aaj Se Better original AI carousel queue with separate account verification.",
   "scripts": {
-    "generate": "node scripts/aaj_se_better_final_generate.mjs",
-    "publish": "node scripts/social_engine.mjs publish"
+    "generate": "node scripts/verify_ready_post.mjs",
+    "publish": "node scripts/approved_social_publish.mjs",
+    "test": "node --test tests/approved_social_publish.test.mjs",
+    "verify:batch": "node scripts/verify_ready_post.mjs content/approved-oct-05-11.json"
   },
   "dependencies": {
     "sharp": "^0.33.5"

@@ -1,0 +1,48 @@
+name: Verify Original Aaj Se Better Batch
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "assets/approved/**"
+      - "content/approved-*.json"
+      - "scripts/**"
+      - "tests/**"
+      - "posts.json"
+      - "package.json"
+      - ".github/workflows/**"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm test
+      - run: npm run verify:batch
+      - name: Confirm scheduling without publishing early
+        run: DRY_RUN=1 npm run publish
+
+  accounts:
+    name: Check destination credentials without publishing
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Read-only Instagram and Facebook account checks
+        env:
+          META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          FACEBOOK_PAGE_ACCESS_TOKEN: ${{ secrets.FACEBOOK_PAGE_ACCESS_TOKEN }}
+          FACEBOOK_PAGE_ID: ${{ secrets.FACEBOOK_PAGE_ID }}
+          EXPECTED_INSTAGRAM_USERNAME: ${{ vars.BRAND_HANDLE || 'aajsebetter' }}
+          EXPECTED_FACEBOOK_PAGE_NAME: ${{ vars.FACEBOOK_PAGE_NAME || 'Aaj Se Better' }}
+        run: node scripts/approved_social_publish.mjs preflight

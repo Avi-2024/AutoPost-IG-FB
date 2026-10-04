@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-08",
+  "topic": "Set a respectful boundary",
+  "slides": [
+    {
+      "primary": "HAR BAAR HAAN?",
+      "accent": "APNA WAQT KAHAN HAI?",
+      "body": "Dusron ki help achhi baat hai. Apni capacity samajh kar commitment dena bhi zaroori hai.",
+      "note": "Boundary bhi respect hai.",
+      "scene": "creator holding several requests beside a small calendar"
+    },
+    {
+      "primary": "PEHLE APNI",
+      "accent": "CAPACITY DEKHO.",
+      "body": "Naya kaam lene se pehle check karo: time hai? Energy hai? Purane commitments ka kya hoga?",
+      "note": "Soch kar commitment do.",
+      "scene": "creator looking at filled calendar blocks beside one new request"
+    },
+    {
+      "primary": "TURANT YES",
+      "accent": "ZAROORI NAHI.",
+      "body": "Agar sure nahi ho, bolo: main apna schedule check karke tumhe bata deta hoon.",
+      "note": "Jawab dene ke liye waqt lo.",
+      "scene": "creator pausing thoughtfully beside a message card and clock"
+    },
+    {
+      "primary": "NO KO",
+      "accent": "CLEAR RAKHO.",
+      "body": "Abhi main yeh nahi le paunga. Chhota, respectful aur saaf jawab kaafi ho sakta hai.",
+      "note": "Clear jawab helpful hai.",
+      "scene": "creator placing one request card into a separate tray"
+    },
+    {
+      "primary": "ALTERNATIVE TABHI DO",
+      "accent": "JAB DE SAKO.",
+      "body": "Agar genuinely possible ho, doosra time suggest karo. Sirf guilt mein naya promise mat karo.",
+      "note": "Naya promise soch kar karo.",
+      "scene": "creator considering two calendar slots with simple blocks"
+    },
+    {
+      "primary": "EK BOUNDARY",
+      "accent": "AAJ CHOOSE KARO.",
+      "body": "Kaam, phone ya extra requests mein ek limit choose karo. Use calmly aur clearly communicate karo.",
+      "note": "Save this + apna waqt bachao.",
+      "scene": "creator protecting an orange calendar block with a clear divider"
+    }
+  ],
+  "caption": "Dusron ki help achhi baat hai. Apni capacity samajh kar commitment dena bhi zaroori hai.\n\nKaam, phone ya extra requests mein ek limit choose karo. Use calmly aur clearly communicate karo.\n\nSave this + apna waqt bachao.",
+  "hashtags": [
+    "#aajsebetter",
+    "#selfgrowth",
+    "#smallsteps",
+    "#mindset",
+    "#hinglish"
+  ],
+  "generator": "built_in_image_gen",
+  "brand": "Aaj Se Better",
+  "content_source": "content/approved-oct-05-11.json",
+  "reviewed": true
+}

@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-07",
+  "topic": "Busy does not always mean progress",
+  "slides": [
+    {
+      "primary": "DIN BHAR BUSY?",
+      "accent": "KYA AAGE BADHA?",
+      "body": "Messages aur chhote tasks se din bhar sakta hai. Apni important priority ko bhi jagah do.",
+      "note": "Busy aur progress alag hain.",
+      "scene": "creator surrounded by loose message cards with one project card in focus"
+    },
+    {
+      "primary": "HAR REQUEST",
+      "accent": "EQUAL PRIORITY NAHI.",
+      "body": "Turant aaya message zaroori kaam se zyada important ho, yeh zaroori nahi.",
+      "note": "Priority pehle socho.",
+      "scene": "creator comparing an orange priority card and blue notification cards"
+    },
+    {
+      "primary": "EK RESULT",
+      "accent": "SAAMNE RAKHO.",
+      "body": "Aaj din ke end tak kya complete karna hai? Ek clear finish line likho.",
+      "note": "Output ko clear banao.",
+      "scene": "creator placing one finished block on a clean desk"
+    },
+    {
+      "primary": "EK FOCUS SLOT",
+      "accent": "BACHA KAR RAKHO.",
+      "body": "Apni important priority ke liye ek chhota time slot rakho. Us waqt extra tabs band karo.",
+      "note": "Ek waqt par ek kaam.",
+      "scene": "creator closing distractions beside one open notebook and timer"
+    },
+    {
+      "primary": "CHECKLIST SE PEHLE",
+      "accent": "RESULT DEKHO.",
+      "body": "Tasks tick hue, par useful kaam kitna complete hua? Dono ko alag se dekho.",
+      "note": "Completion ka matlab samjho.",
+      "scene": "creator inspecting a finished project beside a checklist"
+    },
+    {
+      "primary": "AAJ KI PRIORITY",
+      "accent": "ABHI LIKHO.",
+      "body": "Ek useful result choose karo. Uska agla step likho. Calendar mein uske liye waqt rakho.",
+      "note": "Save this + ek priority set karo.",
+      "scene": "creator placing an orange task card beside a blank calendar"
+    }
+  ],
+  "caption": "Messages aur chhote tasks se din bhar sakta hai. Apni important priority ko bhi jagah do.\n\nEk useful result choose karo. Uska agla step likho. Calendar mein uske liye waqt rakho.\n\nSave this + ek priority set karo.",
+  "hashtags": [
+    "#aajsebetter",
+    "#selfgrowth",
+    "#smallsteps",
+    "#mindset",
+    "#hinglish"
+  ],
+  "generator": "built_in_image_gen",
+  "brand": "Aaj Se Better",
+  "content_source": "content/approved-oct-05-11.json",
+  "reviewed": true
+}

@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-09",
+  "topic": "Speak to yourself more fairly",
+  "slides": [
+    {
+      "primary": "GALTI HUI HAI.",
+      "accent": "TUM GALTI NAHI HO.",
+      "body": "Ek mistake ko apni poori identity mat banao. Kaam ko review karo, khud ko label mat karo.",
+      "note": "Insaan aur galti alag hain.",
+      "scene": "creator inspecting one flawed work card beside other useful work"
+    },
+    {
+      "primary": "MAIN KABHI",
+      "accent": "SAHI NAHI KARTA?",
+      "body": "Kabhi aur hamesha jaise words check karo. Kya tumhare paas iske against koi example bhi hai?",
+      "note": "Apne words notice karo.",
+      "scene": "creator comparing two unlabelled thought cards"
+    },
+    {
+      "primary": "FACT KYA HAI?",
+      "accent": "LABEL KYA HAI?",
+      "body": "Deadline miss hui ek fact hai. Main useless hoon ek label hai. Dono ko alag likho.",
+      "note": "Problem ko specific rakho.",
+      "scene": "creator separating one calendar card from a cloudy thought card"
+    },
+    {
+      "primary": "DOST SE",
+      "accent": "KAISE BAAT KARTE?",
+      "body": "Wahi situation dost ke saath hoti toh kya kehte? Apne liye bhi fair words choose karo.",
+      "note": "Fair hona bhi zaroori hai.",
+      "scene": "creator holding a supportive orange message card"
+    },
+    {
+      "primary": "AGLI BAAR",
+      "accent": "KYA BADLEGA?",
+      "body": "Ek reason samjho aur ek practical change choose karo. Sirf khud ko blame karne se aage badho.",
+      "note": "Ek useful adjustment karo.",
+      "scene": "creator moving one improvement card beside a notebook"
+    },
+    {
+      "primary": "APNI BAAT",
+      "accent": "DOBARA LIKHO.",
+      "body": "Main bekaar hoon ki jagah likho: is kaam mein dikkat aayi. Ab main yeh step try karunga.",
+      "note": "Save this + ek label badlo.",
+      "scene": "creator rewriting a note beside an orange pencil"
+    }
+  ],
+  "caption": "Ek mistake ko apni poori identity mat banao. Kaam ko review karo, khud ko label mat karo.\n\nMain bekaar hoon ki jagah likho: is kaam mein dikkat aayi. Ab main yeh step try karunga.\n\nSave this + ek label badlo.",
+  "hashtags": [
+    "#aajsebetter",
+    "#selfgrowth",
+    "#smallsteps",
+    "#mindset",
+    "#hinglish"
+  ],
+  "generator": "built_in_image_gen",
+  "brand": "Aaj Se Better",
+  "content_source": "content/approved-oct-05-11.json",
+  "reviewed": true
+}

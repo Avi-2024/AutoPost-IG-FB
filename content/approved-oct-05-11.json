@@ -1,0 +1,401 @@
+{
+  "brand": "Aaj Se Better",
+  "tagline": "Small steps. Bigger life.",
+  "style_override": "User selected Aaj Se Better branding and content in uploaded character-and-blue reference style for this batch.",
+  "generator": "built_in_image_gen",
+  "stylePrompt": "Use case: ads-marketing. One finished square Instagram carousel slide for Aaj Se Better, using attached image 1 as STYLE REFERENCE ONLY. Match its polished premium faceless young Indian creator, dark wavy hair, orange hoodie, glossy high-end 3D illustration, white workspace with subtle blue glow, orange and blue props, strong condensed stacked black/blue/orange typography. Fresh original pose and relevant scene, not copying reference content. Large bold condensed primary headline BLACK at LEFT and supplied accent headline ORANGE or BLUE at LEFT, sharply legible exact copy. Creator on RIGHT, body below headline left, clear separation from character, safe margins. Top left wordmark 'Aaj Se Better' with Better in orange; do NOT use buildkarbro mark/name. Top right outlined slide-count pill. Bottom left '@aajsebetter'; bottom right supplied note with orange underline. Tiny bottom-center tagline 'Small steps. Bigger life.'. White clean full bleed square canvas, no screenshot border or UI. Props use simple blank blocks/icons only, NO extra readable letters, numbers, labels, interface copy. Exact supplied words only, no invented text or watermark. Different pose/props illustrate message each slide, make head/body text large enough for mobile. ",
+  "posts": [
+    {
+      "date": "2026-10-05",
+      "topic": "Restart after a missed day",
+      "slides": [
+        {
+          "primary": "EK DIN MISS HUA?",
+          "accent": "SAB KHATAM NAHI.",
+          "body": "Routine toot gayi toh khud ko judge mat karo. Aaj ek chhote step se dobara shuru karo.",
+          "note": "Restart bhi progress hai.",
+          "scene": "creator rearranging a slipped orange habit card beside a blue calendar"
+        },
+        {
+          "primary": "EK MISSED DAY",
+          "accent": "TUMHARI IDENTITY NAHI.",
+          "body": "Ek din padhai, walk ya kaam miss hua. Isse tumhara poora effort zero nahi ho jata.",
+          "note": "Ek din poori kahani nahi.",
+          "scene": "creator looking at one loose card beside a neat stack of completed cards"
+        },
+        {
+          "primary": "GUILT KO PLAN",
+          "accent": "MAT BANNE DO.",
+          "body": "Khud ko daantne mein din mat nikaalo. Bas likho: main dobara kab aur kaise shuru karunga?",
+          "note": "Agla step saaf rakho.",
+          "scene": "creator writing one short plan in a notebook with blank lines"
+        },
+        {
+          "primary": "RESTART KO",
+          "accent": "CHHOTA RAKHO.",
+          "body": "Ek chapter mushkil lag raha hai? Ek page padho. Bada session nahi ho raha? Paanch minute do.",
+          "note": "Chhota start bhi start hai.",
+          "scene": "creator opening a book beside a small timer"
+        },
+        {
+          "primary": "PURANA LOAD",
+          "accent": "AAJ PAR MAT DAALO.",
+          "body": "Missed din ki saari bharpai ek saath zaroori nahi. Aaj ka manageable kaam pehle karo.",
+          "note": "Aaj ka step poora karo.",
+          "scene": "creator choosing one orange work block from a larger pile"
+        },
+        {
+          "primary": "KAL KI GALTI SE",
+          "accent": "AAJ MAT ROKO.",
+          "body": "Ek chhota action choose karo. Uska time likho. Aaj usse poora karke apna restart mark karo.",
+          "note": "Save this + aaj restart karo.",
+          "scene": "creator placing an orange checkmark card on a calendar"
+        }
+      ],
+      "caption": "Routine toot gayi toh khud ko judge mat karo. Aaj ek chhote step se dobara shuru karo.\n\nEk chhota action choose karo. Uska time likho. Aaj usse poora karke apna restart mark karo.\n\nSave this + aaj restart karo.",
+      "hashtags": [
+        "#aajsebetter",
+        "#selfgrowth",
+        "#smallsteps",
+        "#mindset",
+        "#hinglish"
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "topic": "Compare less, notice your own progress",
+      "slides": [
+        {
+          "primary": "USKI TIMELINE",
+          "accent": "TUMHARA REPORT CARD NAHI.",
+          "body": "Kisi aur ki progress dekh kar apni poori journey ko judge mat karo.",
+          "note": "Apni direction yaad rakho.",
+          "scene": "creator looking at two different winding paths on blank icon cards"
+        },
+        {
+          "primary": "TUM EK POST",
+          "accent": "DEKH RAHE HO.",
+          "body": "Us post ke peeche ka time, support aur setbacks tumhe poore nahi dikhte.",
+          "note": "Tasveer poori nahi hoti.",
+          "scene": "creator holding a small picture card beside a closed notebook"
+        },
+        {
+          "primary": "COMPARE KARNA HAI?",
+          "accent": "APNE KAL SE KARO.",
+          "body": "Pichhle mahine se kya seekha? Kaunsa kaam ab thoda aasaan lagta hai? Woh bhi progress hai.",
+          "note": "Apna evidence dekho.",
+          "scene": "creator comparing earlier and improved project cards without labels"
+        },
+        {
+          "primary": "JALAN KO",
+          "accent": "EK SAWAL BANAO.",
+          "body": "Us insaan ki kaunsi skill tum seekhna chahte ho? Ek cheez choose karo, poori life nahi.",
+          "note": "Comparison se ek lesson lo.",
+          "scene": "creator choosing one blue skill card from a board"
+        },
+        {
+          "primary": "APNI ENERGY",
+          "accent": "BACHANA SEEKHO.",
+          "body": "Agar koi feed baar-baar tumhe distract karti hai, thoda pause lo. Apne next step par laut aao.",
+          "note": "Attention apne paas rakho.",
+          "scene": "creator turning a phone face down beside an open notebook"
+        },
+        {
+          "primary": "AAJ EK STEP",
+          "accent": "APNE LIYE LO.",
+          "body": "Ek chhoti cheez likho jisme tum better hue ho. Phir apne goal ke liye das minute do.",
+          "note": "Save this + apni progress likho.",
+          "scene": "creator writing in a journal beside one orange progress block"
+        }
+      ],
+      "caption": "Kisi aur ki progress dekh kar apni poori journey ko judge mat karo.\n\nEk chhoti cheez likho jisme tum better hue ho. Phir apne goal ke liye das minute do.\n\nSave this + apni progress likho.",
+      "hashtags": [
+        "#aajsebetter",
+        "#selfgrowth",
+        "#smallsteps",
+        "#mindset",
+        "#hinglish"
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "topic": "Busy does not always mean progress",
+      "slides": [
+        {
+          "primary": "DIN BHAR BUSY?",
+          "accent": "KYA AAGE BADHA?",
+          "body": "Messages aur chhote tasks se din bhar sakta hai. Apni important priority ko bhi jagah do.",
+          "note": "Busy aur progress alag hain.",
+          "scene": "creator surrounded by loose message cards with one project card in focus"
+        },
+        {
+          "primary": "HAR REQUEST",
+          "accent": "EQUAL PRIORITY NAHI.",
+          "body": "Turant aaya message zaroori kaam se zyada important ho, yeh zaroori nahi.",
+          "note": "Priority pehle socho.",
+          "scene": "creator comparing an orange priority card and blue notification cards"
+        },
+        {
+          "primary": "EK RESULT",
+          "accent": "SAAMNE RAKHO.",
+          "body": "Aaj din ke end tak kya complete karna hai? Ek clear finish line likho.",
+          "note": "Output ko clear banao.",
+          "scene": "creator placing one finished block on a clean desk"
+        },
+        {
+          "primary": "EK FOCUS SLOT",
+          "accent": "BACHA KAR RAKHO.",
+          "body": "Apni important priority ke liye ek chhota time slot rakho. Us waqt extra tabs band karo.",
+          "note": "Ek waqt par ek kaam.",
+          "scene": "creator closing distractions beside one open notebook and timer"
+        },
+        {
+          "primary": "CHECKLIST SE PEHLE",
+          "accent": "RESULT DEKHO.",
+          "body": "Tasks tick hue, par useful kaam kitna complete hua? Dono ko alag se dekho.",
+          "note": "Completion ka matlab samjho.",
+          "scene": "creator inspecting a finished project beside a checklist"
+        },
+        {
+          "primary": "AAJ KI PRIORITY",
+          "accent": "ABHI LIKHO.",
+          "body": "Ek useful result choose karo. Uska agla step likho. Calendar mein uske liye waqt rakho.",
+          "note": "Save this + ek priority set karo.",
+          "scene": "creator placing an orange task card beside a blank calendar"
+        }
+      ],
+      "caption": "Messages aur chhote tasks se din bhar sakta hai. Apni important priority ko bhi jagah do.\n\nEk useful result choose karo. Uska agla step likho. Calendar mein uske liye waqt rakho.\n\nSave this + ek priority set karo.",
+      "hashtags": [
+        "#aajsebetter",
+        "#selfgrowth",
+        "#smallsteps",
+        "#mindset",
+        "#hinglish"
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "topic": "Set a respectful boundary",
+      "slides": [
+        {
+          "primary": "HAR BAAR HAAN?",
+          "accent": "APNA WAQT KAHAN HAI?",
+          "body": "Dusron ki help achhi baat hai. Apni capacity samajh kar commitment dena bhi zaroori hai.",
+          "note": "Boundary bhi respect hai.",
+          "scene": "creator holding several requests beside a small calendar"
+        },
+        {
+          "primary": "PEHLE APNI",
+          "accent": "CAPACITY DEKHO.",
+          "body": "Naya kaam lene se pehle check karo: time hai? Energy hai? Purane commitments ka kya hoga?",
+          "note": "Soch kar commitment do.",
+          "scene": "creator looking at filled calendar blocks beside one new request"
+        },
+        {
+          "primary": "TURANT YES",
+          "accent": "ZAROORI NAHI.",
+          "body": "Agar sure nahi ho, bolo: main apna schedule check karke tumhe bata deta hoon.",
+          "note": "Jawab dene ke liye waqt lo.",
+          "scene": "creator pausing thoughtfully beside a message card and clock"
+        },
+        {
+          "primary": "NO KO",
+          "accent": "CLEAR RAKHO.",
+          "body": "Abhi main yeh nahi le paunga. Chhota, respectful aur saaf jawab kaafi ho sakta hai.",
+          "note": "Clear jawab helpful hai.",
+          "scene": "creator placing one request card into a separate tray"
+        },
+        {
+          "primary": "ALTERNATIVE TABHI DO",
+          "accent": "JAB DE SAKO.",
+          "body": "Agar genuinely possible ho, doosra time suggest karo. Sirf guilt mein naya promise mat karo.",
+          "note": "Naya promise soch kar karo.",
+          "scene": "creator considering two calendar slots with simple blocks"
+        },
+        {
+          "primary": "EK BOUNDARY",
+          "accent": "AAJ CHOOSE KARO.",
+          "body": "Kaam, phone ya extra requests mein ek limit choose karo. Use calmly aur clearly communicate karo.",
+          "note": "Save this + apna waqt bachao.",
+          "scene": "creator protecting an orange calendar block with a clear divider"
+        }
+      ],
+      "caption": "Dusron ki help achhi baat hai. Apni capacity samajh kar commitment dena bhi zaroori hai.\n\nKaam, phone ya extra requests mein ek limit choose karo. Use calmly aur clearly communicate karo.\n\nSave this + apna waqt bachao.",
+      "hashtags": [
+        "#aajsebetter",
+        "#selfgrowth",
+        "#smallsteps",
+        "#mindset",
+        "#hinglish"
+      ]
+    },
+    {
+      "date": "2026-10-09",
+      "topic": "Speak to yourself more fairly",
+      "slides": [
+        {
+          "primary": "GALTI HUI HAI.",
+          "accent": "TUM GALTI NAHI HO.",
+          "body": "Ek mistake ko apni poori identity mat banao. Kaam ko review karo, khud ko label mat karo.",
+          "note": "Insaan aur galti alag hain.",
+          "scene": "creator inspecting one flawed work card beside other useful work"
+        },
+        {
+          "primary": "MAIN KABHI",
+          "accent": "SAHI NAHI KARTA?",
+          "body": "Kabhi aur hamesha jaise words check karo. Kya tumhare paas iske against koi example bhi hai?",
+          "note": "Apne words notice karo.",
+          "scene": "creator comparing two unlabelled thought cards"
+        },
+        {
+          "primary": "FACT KYA HAI?",
+          "accent": "LABEL KYA HAI?",
+          "body": "Deadline miss hui ek fact hai. Main useless hoon ek label hai. Dono ko alag likho.",
+          "note": "Problem ko specific rakho.",
+          "scene": "creator separating one calendar card from a cloudy thought card"
+        },
+        {
+          "primary": "DOST SE",
+          "accent": "KAISE BAAT KARTE?",
+          "body": "Wahi situation dost ke saath hoti toh kya kehte? Apne liye bhi fair words choose karo.",
+          "note": "Fair hona bhi zaroori hai.",
+          "scene": "creator holding a supportive orange message card"
+        },
+        {
+          "primary": "AGLI BAAR",
+          "accent": "KYA BADLEGA?",
+          "body": "Ek reason samjho aur ek practical change choose karo. Sirf khud ko blame karne se aage badho.",
+          "note": "Ek useful adjustment karo.",
+          "scene": "creator moving one improvement card beside a notebook"
+        },
+        {
+          "primary": "APNI BAAT",
+          "accent": "DOBARA LIKHO.",
+          "body": "Main bekaar hoon ki jagah likho: is kaam mein dikkat aayi. Ab main yeh step try karunga.",
+          "note": "Save this + ek label badlo.",
+          "scene": "creator rewriting a note beside an orange pencil"
+        }
+      ],
+      "caption": "Ek mistake ko apni poori identity mat banao. Kaam ko review karo, khud ko label mat karo.\n\nMain bekaar hoon ki jagah likho: is kaam mein dikkat aayi. Ab main yeh step try karunga.\n\nSave this + ek label badlo.",
+      "hashtags": [
+        "#aajsebetter",
+        "#selfgrowth",
+        "#smallsteps",
+        "#mindset",
+        "#hinglish"
+      ]
+    },
+    {
+      "date": "2026-10-10",
+      "topic": "Keep one small promise to yourself",
+      "slides": [
+        {
+          "primary": "BADA PROMISE?",
+          "accent": "PEHLE CHHOTA NIBHAO.",
+          "body": "Aaj ek aisa commitment choose karo jo tumhari real routine mein fit ho.",
+          "note": "Promise ko realistic rakho.",
+          "scene": "creator choosing one small orange block beside a larger stack"
+        },
+        {
+          "primary": "GOAL KO",
+          "accent": "ACTION BANAO.",
+          "body": "Better banna vague hai. Dinner ke baad ek page padhna ek clear action hai.",
+          "note": "Kya karna hai, saaf likho.",
+          "scene": "creator opening a book beside a simple task card"
+        },
+        {
+          "primary": "TIME AUR PLACE",
+          "accent": "PEHLE CHOOSE KARO.",
+          "body": "Kab karoge? Kahan karoge? Apne action ko ek daily moment ke saath jodo.",
+          "note": "Start karna aasaan banao.",
+          "scene": "creator placing a book beside a clock and desk lamp"
+        },
+        {
+          "primary": "MUSHKIL DIN KA",
+          "accent": "SMALL VERSION RAKHO.",
+          "body": "Poora session nahi ho raha toh minimum kya kar sakte ho? Uska chhota version pehle decide karo.",
+          "note": "Routine ko flexible rakho.",
+          "scene": "creator choosing a small book card beside a larger notebook"
+        },
+        {
+          "primary": "TRACK KARO.",
+          "accent": "JUDGE MAT KARO.",
+          "body": "Action hua ya nahi, honestly note karo. Miss hua toh reason samjho aur agla attempt plan karo.",
+          "note": "Tracker feedback deta hai.",
+          "scene": "creator marking abstract calendar blocks with a pencil"
+        },
+        {
+          "primary": "AAJ KA EK",
+          "accent": "PROMISE LIKHO.",
+          "body": "Ek action, ek time aur ek minimum version. Aaj usse try karo aur apna outcome note karo.",
+          "note": "Save this + chhota promise nibhao.",
+          "scene": "creator arranging three icon cards beside an orange checkmark"
+        }
+      ],
+      "caption": "Aaj ek aisa commitment choose karo jo tumhari real routine mein fit ho.\n\nEk action, ek time aur ek minimum version. Aaj usse try karo aur apna outcome note karo.\n\nSave this + chhota promise nibhao.",
+      "hashtags": [
+        "#aajsebetter",
+        "#selfgrowth",
+        "#smallsteps",
+        "#mindset",
+        "#hinglish"
+      ]
+    },
+    {
+      "date": "2026-10-11",
+      "topic": "A gentle weekly reset",
+      "slides": [
+        {
+          "primary": "NAYA WEEK.",
+          "accent": "POORI LIFE RESET NAHI.",
+          "body": "Sab kuch ek saath badalne ki zaroorat nahi. Agle hafte ke liye ek useful adjustment choose karo.",
+          "note": "Reset ko simple rakho.",
+          "scene": "creator reviewing a notebook beside one orange calendar block"
+        },
+        {
+          "primary": "PEHLE DEKHO",
+          "accent": "KYA COMPLETE HUA.",
+          "body": "Teen chhoti cheezein likho jo tumne ki. Sirf unfinished list par nazar mat rakho.",
+          "note": "Finished work bhi count hota hai.",
+          "scene": "creator gathering three completed cards into a notebook"
+        },
+        {
+          "primary": "KAHAN ATKE?",
+          "accent": "EK REASON SAMJHO.",
+          "body": "Kaunsa task baar-baar delay hua? Kya next step unclear tha ya time slot realistic nahi tha?",
+          "note": "Blocker ko naam do.",
+          "scene": "creator inspecting a stalled task card beside a small gear"
+        },
+        {
+          "primary": "KYA HELP KIYA?",
+          "accent": "USE SAATH RAKHO.",
+          "body": "Kaunsi habit ya decision useful raha? Har week naya system shuru karna zaroori nahi.",
+          "note": "Jo useful hai, rakho.",
+          "scene": "creator choosing one helpful tool card beside a notebook"
+        },
+        {
+          "primary": "TEEN PRIORITIES.",
+          "accent": "CLEAR FINISH LINES.",
+          "body": "Agle hafte ke teen important results likho. Har ek ka pehla manageable step bhi add karo.",
+          "note": "Plan ko actionable banao.",
+          "scene": "creator arranging three project blocks beside a calendar"
+        },
+        {
+          "primary": "EK CHHOTA CHANGE.",
+          "accent": "AAJ SE BETTER.",
+          "body": "Aaj das minute review ko do. Ek improvement choose karo aur uska pehla step schedule karo.",
+          "note": "Save this + apna weekly reset karo.",
+          "scene": "creator placing one improvement card on next week's blank calendar"
+        }
+      ],
+      "caption": "Sab kuch ek saath badalne ki zaroorat nahi. Agle hafte ke liye ek useful adjustment choose karo.\n\nAaj das minute review ko do. Ek improvement choose karo aur uska pehla step schedule karo.\n\nSave this + apna weekly reset karo.",
+      "hashtags": [
+        "#aajsebetter",
+        "#selfgrowth",
+        "#smallsteps",
+        "#mindset",
+        "#hinglish"
+      ]
+    }
+  ]
+}
